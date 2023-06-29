@@ -1,0 +1,39 @@
+.bg{
+    @apply bg-background rounded-lg relative h-screen
+}
+
+.content{
+    @apply flex justify-center bg-background items-center h-screen;
+    margin:  0 auto;
+    padding: 25px;
+}
+
+.left_side{
+    @apply text-white flex-1 items-center w-full bg-blue h-full flex flex-col justify-center;
+    border-radius: 18px 0px 0px 18px;
+}
+
+.container{
+    @apply max-w-xl my-0 mx-auto;
+}
+
+
+.title{
+    @apply flex items-center;
+    >h3{
+        @apply text-3xl ml-7 font-bold
+    }
+}
+
+.text{
+    @apply mt-12 text-4xl font-bold mb-14 leading-10
+}
+
+.form{
+    @apply flex-1 self-center bg-white h-full w-full flex flex-col justify-center; 
+    border-radius: 0px 18px 18px 0px;
+    h2{
+        @apply leading-8 text-2xl font-semibold mb-6 text-center
+    }
+}
+

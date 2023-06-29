@@ -1,0 +1,33 @@
+
+.step{
+    @apply flex items-center my-9 text-lg relative;
+}
+
+.step_item{
+    @apply relative w-8 h-8 rounded-2xl mr-3 ;
+    opacity: 0.4;
+    border: 2px solid white;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.361);
+    opacity: 1;
+}
+
+.step:not(:first-child):before {
+    @apply content-[''] absolute h-7 bg-white rounded-3xl;
+    width: 3px;
+    left: 14px;
+    margin-top: -69px;
+    opacity: 0.4;
+}
+.complete{
+    background-color:white;
+    opacity: 1;
+}
+
+.completed:not(:first-child):before, 
+.actived:not(:first-child):before {
+    @apply content-[''] absolute h-7 bg-white rounded-3xl;
+    opacity: 1;
+}

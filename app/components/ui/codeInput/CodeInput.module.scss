@@ -1,0 +1,9 @@
+.inputs{
+    p{
+        @apply text-gray font-bold mb-2;
+    }
+}
+
+.input{
+    @apply mr-4 text-base py-3 rounded-xl mb-7 bg-white border border-white_200 w-14 text-center;
+}

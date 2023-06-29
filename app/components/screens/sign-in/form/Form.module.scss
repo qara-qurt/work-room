@@ -1,0 +1,22 @@
+.button {
+    @apply flex items-center text-base font-bold bg-blue py-4 px-11 text-white rounded-xl mb-5 mt-10;
+
+    svg {
+        @apply ml-1
+    }
+}
+
+.button:disabled {
+    @apply bg-gray
+}
+
+.blue {
+    @apply text-center text-blue text-base
+}
+.bottom {
+    @apply flex items-center flex-col justify-between;
+}
+
+.gray{
+    @apply text-gray
+}

@@ -1,0 +1,6 @@
+.error {
+    @apply flex bg-light_blue text-blue p-5 rounded-md -mt-5;
+    img{
+        @apply mr-1
+    }
+}
